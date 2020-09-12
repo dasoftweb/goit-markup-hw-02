@@ -1,0 +1,193 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --accent-color: #2196f3;
+  --main-descriprion-color: #757575;
+  --main-title-color: #212121;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* =======HEADER====== */
+.logo-dark {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+  font-style: normal;
+}
+
+.list-item:hover,
+.list-item:focus {
+  color: var(--accent-color);
+}
+
+/* =======END HEADER====== */
+
+/* ======HERO====== */
+
+/* background-color временно для видимости белых букв */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.367;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  color: #ffffff;
+}
+/* ======END HERO====== */
+
+/* ======ADVANTAGES====== */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.advantages-descriprion {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-descriprion-color);
+}
+
+/* ======END ADVANTAGES====== */
+
+/* ======WHAT WE DO====== */
+.title-skills {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+/* ======END WHAT WE DO====== */
+
+/* ======TEAM====== */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--main-descriprion-color);
+}
+/* ======END TEAM====== */
+
+/* ======FOOTER====== */
+.footer {
+  background: #2f303a;
+}
+
+.logo-light {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ======END FOOTER====== */
+
+/* =======PORTFOLIO====== */
+
+.choice-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background: #f5f4fa;
+}
+.choice-btn:hover,
+.choice-btn:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-descriprion-color);
+}
+
+/* ======= END PORTFOLIO====== */
