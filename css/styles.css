@@ -42,6 +42,10 @@ body {
   font-style: normal;
 }
 
+.header-contacts {
+  color: var(--main-descriprion-color);
+}
+
 .list-item:hover,
 .list-item:focus {
   color: var(--accent-color);
